@@ -1,6 +1,5 @@
-"""
-Backtest Engine
-"""
+from predictor import Predictor
 
-class BacktestEngine:
-    pass
+predictor = Predictor("../data/marksix_history.csv")
+
+predictor.run()
